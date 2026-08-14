@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         {/* Left Side: Showcase Image Slideshow (Full-height on desktop, top-aligned on mobile) */}
-        <div className="relative h-[300px] sm:h-[400px] lg:h-full overflow-hidden group min-h-0 w-full">
+        <div className="relative h-[460px] sm:h-[580px] lg:h-full overflow-hidden group min-h-0 w-full">
           {images.map((src, index) => (
             <div
               key={src}
