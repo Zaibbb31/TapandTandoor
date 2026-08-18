@@ -131,7 +131,9 @@ export default function Home() {
             <div className="h-[1px] bg-neutral-200 w-full" />
             
             <a 
-              href="#menu" 
+              href="/Tap_N_Tandoor_main%20menu1.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="py-3 lg:py-4 text-center text-base lg:text-lg font-bold tracking-[0.25em] hover:tracking-[0.35em] text-[#1a1a1a] hover:text-[#ED1B24] transition-all duration-300 ease-in-out block"
             >
               {t.menu}
@@ -140,7 +142,9 @@ export default function Home() {
             <div className="h-[1px] bg-neutral-200 w-full" />
             
             <a 
-              href="#reservation" 
+              href="https://www.opentable.com/r/tap-n-tandoor-british-indian-sports-tavern-toronto" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="my-3 py-3 lg:py-4 text-center text-sm lg:text-base font-bold tracking-[0.3em] bg-black text-white hover:bg-[#ED1B24] rounded transition-all duration-300 ease-in-out shadow hover:shadow-md block hover:-translate-y-0.5 transform"
             >
               {t.reservation}
